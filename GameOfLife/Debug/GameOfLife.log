@@ -4,4 +4,4 @@ c:\users\user\source\repos\gameoflife\gameoflife\boarld.cpp(37): warning C4018: 
 c:\users\user\source\repos\gameoflife\gameoflife\boarld.cpp(40): warning C4018: '<': signed/unsigned mismatch
 c:\users\user\source\repos\gameoflife\gameoflife\boarld.cpp(54): warning C4018: '<': signed/unsigned mismatch
 c:\users\user\source\repos\gameoflife\gameoflife\boarld.cpp(56): warning C4018: '<': signed/unsigned mismatch
-  GameOfLife.vcxproj -> c:\users\user\source\repos\GameOfLife\Debug\GameOfLife.exe
+  GameOfLife.vcxproj -> C:\Users\User\source\repos\GameOfLife\Debug\GameOfLife.exe

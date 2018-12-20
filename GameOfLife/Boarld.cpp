@@ -24,7 +24,7 @@ bool Boarld::nextState(int n, int m)
 	int cnt = 0;
 	for (int n2 = n - 1; n2 <= n + 1; n2++)
 		for (int m2 = m - 1; m2 <= m + 1; m2++)
-			if (get(n,m))
+			if (get(n2,m2))
 				cnt++;
 	if (squares.at(n).at(m))
 		cnt--;
@@ -54,7 +54,8 @@ void Boarld::print()
 	for (int n = 0; n < squares.size(); n++)
 	{
 		for (int m = 0; m < squares.at(n).size(); m++)
-			std::cout << squares.at(n).at(m) ? '*' : ' ';
+			if (squares.at(n).at(m)) std::cout << "*";
+			else std::cout << " ";
 		std::cout << std::endl;
 	}
 }
